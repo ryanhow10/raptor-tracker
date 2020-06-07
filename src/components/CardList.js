@@ -4,18 +4,17 @@ import Card from './Card';
 class CardList extends Component {
     render() {
         const { players } = this.props;
-        const cardsArray = players.map((player, i) => {
+        const cardsArray = players.map((player, index) => {
             return (<Card 
-                key={ players[i].firstName }
-                firstName={ players[i].firstName } 
-                lastName={ players[i].lastName } 
-                number={ players[i].number } 
-                position={ players[i].position } 
-                image={ players[i].image }>
+                key={ index }
+                firstName={ player.firstName } 
+                lastName={ player.lastName } 
+                number={ player.number } 
+                position={ player.position } 
+                image={ player.image }>
                 </Card>
             ) 
         });
-
         return (
             <div>
                 { cardsArray }
