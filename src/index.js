@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './components/Card';
+import CardList from './components/CardList';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
+import { players } from './assets/players';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card></Card>
+    <div>
+      <CardList players={ players }></CardList>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -36,7 +36,7 @@ export const players = [
     },
     {
         firstName: "Dewan",
-        lastName: "Hernandex",
+        lastName: "Hernandez",
         position: "Center",
         number: 20,
         image: "dewan.png"
