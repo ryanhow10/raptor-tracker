@@ -6,7 +6,7 @@ class Search extends Component {
         return (
             <div className="pa2">
                 <input
-                    className="pa3 ba b--red bg-light-gray"
+                    className="pa3 ba b--black bg-light-gray br-pill bw1"
                     type="search"
                     placeholder="Search Raptors"
                     onChange={ searchChange }>

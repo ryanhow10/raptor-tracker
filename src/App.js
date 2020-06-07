@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import CardList from './components/CardList';
 import Search from './components/Search';
-import { players } from './assets/players'
+import { players } from './assets/players';
+import './App.css'
 
 class App extends Component {
     constructor() {
@@ -22,7 +23,7 @@ class App extends Component {
         });
         return (
             <div className="tc">
-                <h1>Raptor Tracker</h1>
+                <h1 className="title f1 white mb1">Raptor Tracker</h1>
                 <Search searchChange={ this.onSearchChange }></Search>
                 <CardList players={ filteredPlayers }></CardList>
             </div>

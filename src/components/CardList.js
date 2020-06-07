@@ -11,6 +11,8 @@ class CardList extends Component {
                 lastName={ player.lastName } 
                 number={ player.number } 
                 position={ player.position } 
+                instagram={ player.instagram }
+                twitter={ player.twitter }
                 image={ player.image }>
                 </Card>
             ) 
