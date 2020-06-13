@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5fc3454.chunk.css",
+    "main.js": "/static/js/main.9d61c9d9.chunk.js",
+    "main.js.map": "/static/js/main.9d61c9d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5f80cdb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5f80cdb.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.330533f5.chunk.js": "/static/js/2.330533f5.chunk.js",
+    "static/js/2.330533f5.chunk.js.map": "/static/js/2.330533f5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.59eb64538240d2b86e8c7bf14d33092b.js": "/precache-manifest.59eb64538240d2b86e8c7bf14d33092b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.e5fc3454.chunk.css.map": "/static/css/main.e5fc3454.chunk.css.map",
+    "static/js/2.330533f5.chunk.js.LICENSE.txt": "/static/js/2.330533f5.chunk.js.LICENSE.txt",
+    "static/media/chris.png": "/static/media/chris.da0c25cd.png",
+    "static/media/dewan.png": "/static/media/dewan.db04028d.png",
+    "static/media/fred.png": "/static/media/fred.80a166c9.png",
+    "static/media/kyle.png": "/static/media/kyle.95736a05.png",
+    "static/media/malcolm.png": "/static/media/malcolm.3d2d04e6.png",
+    "static/media/marc.png": "/static/media/marc.c6998deb.png",
+    "static/media/matt.png": "/static/media/matt.99a41b56.png",
+    "static/media/norman.png": "/static/media/norman.1394504f.png",
+    "static/media/og.png": "/static/media/og.6245f7a4.png",
+    "static/media/oshae.png": "/static/media/oshae.afc9ff1c.png",
+    "static/media/pascal.png": "/static/media/pascal.d589df23.png",
+    "static/media/patrick.png": "/static/media/patrick.59d12ddd.png",
+    "static/media/rondae.png": "/static/media/rondae.3363ec5d.png",
+    "static/media/serge.png": "/static/media/serge.96117c12.png",
+    "static/media/stanley.png": "/static/media/stanley.a37ed328.png",
+    "static/media/terence.png": "/static/media/terence.0b43006e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5f80cdb.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.330533f5.chunk.js",
+    "static/css/main.e5fc3454.chunk.css",
+    "static/js/main.9d61c9d9.chunk.js"
+  ]
+}
