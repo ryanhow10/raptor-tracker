@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CardList from './components/CardList';
 import Search from './components/Search';
+import Scroll from './components/Scroll';
+import ErrorBoundary from './components/ErrorBoundary';
 import { players } from './assets/players';
 import './App.css'
 
@@ -25,7 +27,11 @@ class App extends Component {
             <div className="tc">
                 <h1 className="title f1 white mb1">Raptor Tracker</h1>
                 <Search searchChange={ this.onSearchChange }></Search>
-                <CardList players={ filteredPlayers }></CardList>
+                <Scroll>
+                    <ErrorBoundary>
+                        <CardList players={ filteredPlayers }></CardList>
+                    </ErrorBoundary>
+                </Scroll>
             </div>
         );
     }
