@@ -4,6 +4,7 @@ import CardList from './components/CardList';
 import Search from './components/Search';
 import Scroll from './components/Scroll';
 import ErrorBoundary from './components/ErrorBoundary';
+import Header from './components/Header';
 import { setSearchField } from './actions';
 import { players } from './assets/players';
 import './App.css'
@@ -35,7 +36,7 @@ class App extends Component {
         });
         return (
             <div className="tc">
-                <h1 className="title f1 white mb1">Raptor Tracker</h1>
+                <Header></Header>
                 <Search searchChange={ onSearchChange }></Search>
                 <Scroll>
                     <ErrorBoundary>
