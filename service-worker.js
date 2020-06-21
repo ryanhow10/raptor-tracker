@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/raptor-tracker/precache-manifest.b5859d8a15271c42e1d62313f2ce0b83.js"
+  "/raptor-tracker/precache-manifest.2fd9c4ec7a791227b16b6dc3a3284688.js"
 );
 
 self.addEventListener('message', (event) => {
