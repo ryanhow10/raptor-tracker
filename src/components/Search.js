@@ -6,6 +6,7 @@ class Search extends Component {
         return (
             <div className="pa2">
                 <input
+                    aria-label="Search Raptors"
                     className="pa3 ba b--black bg-light-gray br-pill bw1"
                     type="search"
                     placeholder="Search Raptors"
